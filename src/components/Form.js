@@ -3,8 +3,8 @@ import { FcCalendar } from "react-icons/fc";
 import { BsFillClockFill } from "react-icons/bs";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
-import axios from "axios";
 import "./Form.css";
+
 const timeArray = [
   { time: "12:00 AM", value: 0 },
   { time: "12:30 AM", value: 1800 },
@@ -68,9 +68,9 @@ const Form = ({
   );
   const [time, setTime] = useState();
   const [timeValue, setTimeValue] = useState(0);
+  const [value, setValue] = useState("Assign user");
   const [task, setTask] = useState(editableTask ? editableTask.task_msg : "");
   const [show, setshow] = useState(false);
-
   let date = startDate.getDate();
   let Year = startDate.getFullYear();
   let Month = startDate.getMonth() + 1;
@@ -82,6 +82,9 @@ const Form = ({
   }
   const fullDate = `${Year}-${Month}-${date}`;
   const timeZone = -startDate.getTimezoneOffset() * 60;
+  const handleSelect = (e) => {
+    setValue(e.target.value);
+  };
 
   React.useEffect(() => {
     setTime(
@@ -185,13 +188,17 @@ const Form = ({
         <label htmlFor="user" className="form-label">
           Assign Users
         </label>
-        <input
-          type="text"
+        <select
           className="form-control"
           id="user"
-          value={user.profile.first}
+          value={value}
+          onChange={handleSelect}
           aria-describedby="emailHelp"
-        />
+        >
+          <option value={user.profile.first}>{user.profile.first}</option>
+          <option value="Spice bluetean">Spice bluetean</option>
+          <option value="Authorize">Authorize</option>
+        </select>
       </div>
       <div className="mb-1 mt-3 d-flex w-100">
         <div className="d-flex col-12 justify-content-between align-items-center">
