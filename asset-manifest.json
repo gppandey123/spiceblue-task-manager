@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/spiceblue-task-manager/static/css/main.5e6cb1b8.chunk.css",
-    "main.js": "/spiceblue-task-manager/static/js/main.df08387a.chunk.js",
-    "main.js.map": "/spiceblue-task-manager/static/js/main.df08387a.chunk.js.map",
+    "main.js": "/spiceblue-task-manager/static/js/main.2a487303.chunk.js",
+    "main.js.map": "/spiceblue-task-manager/static/js/main.2a487303.chunk.js.map",
     "runtime-main.js": "/spiceblue-task-manager/static/js/runtime-main.83d72b18.js",
     "runtime-main.js.map": "/spiceblue-task-manager/static/js/runtime-main.83d72b18.js.map",
     "static/js/2.564404a4.chunk.js": "/spiceblue-task-manager/static/js/2.564404a4.chunk.js",
@@ -35,6 +35,6 @@
     "static/css/4.03968f7c.chunk.css",
     "static/js/4.03433d6e.chunk.js",
     "static/css/main.5e6cb1b8.chunk.css",
-    "static/js/main.df08387a.chunk.js"
+    "static/js/main.2a487303.chunk.js"
   ]
 }
