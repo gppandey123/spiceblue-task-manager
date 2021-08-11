@@ -37,7 +37,7 @@ const PrivateRoute = ({ component: Component, profile, ...rest }) => {
     <Route
       {...rest}
       render={(props) =>
-        profile ? <Component {...props} /> : <Redirect to="/login" />
+        profile ? <Component {...props} /> : <Redirect to="/spiceblue-task-manager/login" />
       }
     />
   );

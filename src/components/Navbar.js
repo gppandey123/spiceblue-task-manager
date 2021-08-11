@@ -17,7 +17,7 @@ function Navbar() {
             </div>
             {profile ? <>
                     <Link className="navbar-item" to="/spiceblue-task-manager">Home</Link>
-                    <button type="button" className="btn btn-default ml-auto mr-2" onClick={()=>dispatch(deleteUser())}>Logout</button>
+                    <button type="button" className="btn btn-default ml-auto mr-2" to="/spiceblue-task-manager" onClick={()=>dispatch(deleteUser())}>Logout</button>
                 </>
                 : <Link to="/spiceblue-task-manager/login" className="ml-auto mr-2">
                  <button type="button" className="btn btn-default">Login</button>
