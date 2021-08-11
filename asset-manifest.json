@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/spiceblue-task-manager/static/css/main.5e6cb1b8.chunk.css",
-    "main.js": "/spiceblue-task-manager/static/js/main.ee2a3de5.chunk.js",
-    "main.js.map": "/spiceblue-task-manager/static/js/main.ee2a3de5.chunk.js.map",
+    "main.js": "/spiceblue-task-manager/static/js/main.ab936e66.chunk.js",
+    "main.js.map": "/spiceblue-task-manager/static/js/main.ab936e66.chunk.js.map",
     "runtime-main.js": "/spiceblue-task-manager/static/js/runtime-main.3db4d509.js",
     "runtime-main.js.map": "/spiceblue-task-manager/static/js/runtime-main.3db4d509.js.map",
     "static/js/2.564404a4.chunk.js": "/spiceblue-task-manager/static/js/2.564404a4.chunk.js",
@@ -11,8 +11,8 @@
     "static/js/3.c9d8f008.chunk.js": "/spiceblue-task-manager/static/js/3.c9d8f008.chunk.js",
     "static/js/3.c9d8f008.chunk.js.map": "/spiceblue-task-manager/static/js/3.c9d8f008.chunk.js.map",
     "static/css/4.03968f7c.chunk.css": "/spiceblue-task-manager/static/css/4.03968f7c.chunk.css",
-    "static/js/4.79fca70e.chunk.js": "/spiceblue-task-manager/static/js/4.79fca70e.chunk.js",
-    "static/js/4.79fca70e.chunk.js.map": "/spiceblue-task-manager/static/js/4.79fca70e.chunk.js.map",
+    "static/js/4.03433d6e.chunk.js": "/spiceblue-task-manager/static/js/4.03433d6e.chunk.js",
+    "static/js/4.03433d6e.chunk.js.map": "/spiceblue-task-manager/static/js/4.03433d6e.chunk.js.map",
     "static/css/5.a6eb97cb.chunk.css": "/spiceblue-task-manager/static/css/5.a6eb97cb.chunk.css",
     "static/js/5.6d29df19.chunk.js": "/spiceblue-task-manager/static/js/5.6d29df19.chunk.js",
     "static/js/5.6d29df19.chunk.js.map": "/spiceblue-task-manager/static/js/5.6d29df19.chunk.js.map",
@@ -28,13 +28,13 @@
     "static/css/5.a6eb97cb.chunk.css.map": "/spiceblue-task-manager/static/css/5.a6eb97cb.chunk.css.map",
     "static/css/main.5e6cb1b8.chunk.css.map": "/spiceblue-task-manager/static/css/main.5e6cb1b8.chunk.css.map",
     "static/js/3.c9d8f008.chunk.js.LICENSE.txt": "/spiceblue-task-manager/static/js/3.c9d8f008.chunk.js.LICENSE.txt",
-    "static/js/4.79fca70e.chunk.js.LICENSE.txt": "/spiceblue-task-manager/static/js/4.79fca70e.chunk.js.LICENSE.txt"
+    "static/js/4.03433d6e.chunk.js.LICENSE.txt": "/spiceblue-task-manager/static/js/4.03433d6e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3db4d509.js",
     "static/css/4.03968f7c.chunk.css",
-    "static/js/4.79fca70e.chunk.js",
+    "static/js/4.03433d6e.chunk.js",
     "static/css/main.5e6cb1b8.chunk.css",
-    "static/js/main.ee2a3de5.chunk.js"
+    "static/js/main.ab936e66.chunk.js"
   ]
 }
