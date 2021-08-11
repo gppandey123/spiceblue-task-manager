@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/spiceblue-task-manager/static/css/main.5e6cb1b8.chunk.css",
-    "main.js": "/spiceblue-task-manager/static/js/main.ab936e66.chunk.js",
-    "main.js.map": "/spiceblue-task-manager/static/js/main.ab936e66.chunk.js.map",
-    "runtime-main.js": "/spiceblue-task-manager/static/js/runtime-main.3db4d509.js",
-    "runtime-main.js.map": "/spiceblue-task-manager/static/js/runtime-main.3db4d509.js.map",
+    "main.js": "/spiceblue-task-manager/static/js/main.df08387a.chunk.js",
+    "main.js.map": "/spiceblue-task-manager/static/js/main.df08387a.chunk.js.map",
+    "runtime-main.js": "/spiceblue-task-manager/static/js/runtime-main.83d72b18.js",
+    "runtime-main.js.map": "/spiceblue-task-manager/static/js/runtime-main.83d72b18.js.map",
     "static/js/2.564404a4.chunk.js": "/spiceblue-task-manager/static/js/2.564404a4.chunk.js",
     "static/js/2.564404a4.chunk.js.map": "/spiceblue-task-manager/static/js/2.564404a4.chunk.js.map",
     "static/css/3.ecdd39c8.chunk.css": "/spiceblue-task-manager/static/css/3.ecdd39c8.chunk.css",
@@ -18,8 +18,8 @@
     "static/js/5.6d29df19.chunk.js.map": "/spiceblue-task-manager/static/js/5.6d29df19.chunk.js.map",
     "static/js/6.ff7e0e1a.chunk.js": "/spiceblue-task-manager/static/js/6.ff7e0e1a.chunk.js",
     "static/js/6.ff7e0e1a.chunk.js.map": "/spiceblue-task-manager/static/js/6.ff7e0e1a.chunk.js.map",
-    "static/js/7.fc307667.chunk.js": "/spiceblue-task-manager/static/js/7.fc307667.chunk.js",
-    "static/js/7.fc307667.chunk.js.map": "/spiceblue-task-manager/static/js/7.fc307667.chunk.js.map",
+    "static/js/7.334f220d.chunk.js": "/spiceblue-task-manager/static/js/7.334f220d.chunk.js",
+    "static/js/7.334f220d.chunk.js.map": "/spiceblue-task-manager/static/js/7.334f220d.chunk.js.map",
     "static/js/8.c0d585a3.chunk.js": "/spiceblue-task-manager/static/js/8.c0d585a3.chunk.js",
     "static/js/8.c0d585a3.chunk.js.map": "/spiceblue-task-manager/static/js/8.c0d585a3.chunk.js.map",
     "index.html": "/spiceblue-task-manager/index.html",
@@ -31,10 +31,10 @@
     "static/js/4.03433d6e.chunk.js.LICENSE.txt": "/spiceblue-task-manager/static/js/4.03433d6e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3db4d509.js",
+    "static/js/runtime-main.83d72b18.js",
     "static/css/4.03968f7c.chunk.css",
     "static/js/4.03433d6e.chunk.js",
     "static/css/main.5e6cb1b8.chunk.css",
-    "static/js/main.ab936e66.chunk.js"
+    "static/js/main.df08387a.chunk.js"
   ]
 }
