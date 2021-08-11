@@ -19,9 +19,9 @@ function App() {
       <Layout>
         <Suspense fallback={<h1>Loading</h1>}>
           <Switch>
-            <PrivateRoute exact path="/" component={Home} profile={profile} />
-            <Route exact path="/login" component={Login} />
-            <Route exact path="/" component={Login} />
+            <PrivateRoute exact path="/spiceblue-task-manager" component={Home} profile={profile} />
+            <Route exact path="/spiceblue-task-manager/login" component={Login} />
+            <Route exact path="/spiceblue-task-manager" component={Login} />
             <Route path="*" component={Error} />
           </Switch>
         </Suspense>

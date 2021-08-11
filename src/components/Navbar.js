@@ -11,15 +11,15 @@ function Navbar() {
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
                 <li className="nav-item active">
-                    <Link className="nav-link" to="/">Home</Link>
+                    <Link className="nav-link" to="/spiceblue-task-manager">Home</Link>
                 </li>
                 </ul>
             </div>
             {profile ? <>
-                    <Link className="navbar-item" to="/">Home</Link>
+                    <Link className="navbar-item" to="/spiceblue-task-manager">Home</Link>
                     <button type="button" className="btn btn-default ml-auto mr-2" onClick={()=>dispatch(deleteUser())}>Logout</button>
                 </>
-                : <Link to="/login" className="ml-auto mr-2">
+                : <Link to="/spiceblue-task-manager/login" className="ml-auto mr-2">
                  <button type="button" className="btn btn-default">Login</button>
                  </Link>
             }

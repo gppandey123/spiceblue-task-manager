@@ -31,7 +31,7 @@ function Login() {
         let { data } = await getUserId(results);
         localStorage.setItem("profile", JSON.stringify(data.results));
         dispatch(setUserDetails(data.results));
-        history.push("/");
+        history.push("/spiceblue-task-manager");
       } catch (error) {
         setError(error.message);
       }
